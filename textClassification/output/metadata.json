@@ -1,0 +1,83 @@
+{
+  "pipeline": {
+    "id": "l554pae3",
+    "name": null,
+    "dataCollectId": "vglx4tfz",
+    "dataCollect": "@pipcook/plugins-csv-data-collect",
+    "dataCollectParams": "{\"url\":\"http://ai-sample.oss-cn-hangzhou.aliyuncs.com/image_classification/datasets/textClassification.zip\"}",
+    "dataAccessId": "fnvo155u",
+    "dataAccess": "@pipcook/plugins-csv-data-access",
+    "dataAccessParams": "{\"labelColumn\":\"output\"}",
+    "dataProcessId": null,
+    "dataProcess": null,
+    "dataProcessParams": "{}",
+    "datasetProcessId": null,
+    "datasetProcess": null,
+    "datasetProcessParams": "{}",
+    "modelDefineId": "f6731ccf",
+    "modelDefine": "@pipcook/plugins-bayesian-model-define",
+    "modelDefineParams": "{}",
+    "modelLoadId": null,
+    "modelLoad": null,
+    "modelLoadParams": "{}",
+    "modelTrainId": "5izqc900",
+    "modelTrain": "@pipcook/plugins-bayesian-model-train",
+    "modelTrainParams": "{}",
+    "modelEvaluateId": "w2t7yyto",
+    "modelEvaluate": "@pipcook/plugins-bayesian-model-evaluate",
+    "modelEvaluateParams": "{}",
+    "createdAt": "2021-01-19T02:06:26.306Z",
+    "updatedAt": "2021-01-19T02:06:26.306Z"
+  },
+  "output": {
+    "id": "udch7za9",
+    "pipelineId": "l554pae3",
+    "specVersion": "1.3.0",
+    "status": 2,
+    "params": [
+      {
+        "pluginType": "dataCollect",
+        "data": {
+          "url": "http://ai-sample.oss-cn-hangzhou.aliyuncs.com/image_classification/datasets/textClassification.zip"
+        }
+      },
+      {
+        "pluginType": "dataAccess",
+        "data": {
+          "labelColumn": "output"
+        }
+      },
+      {
+        "pluginType": "dataProcess",
+        "data": {}
+      },
+      {
+        "pluginType": "datasetProcess",
+        "data": {}
+      },
+      {
+        "pluginType": "modelLoad",
+        "data": {}
+      },
+      {
+        "pluginType": "modelDefine",
+        "data": {}
+      },
+      {
+        "pluginType": "modelTrain",
+        "data": {}
+      },
+      {
+        "pluginType": "modelEvaluate",
+        "data": {}
+      }
+    ],
+    "currentIndex": -1,
+    "updatedAt": "2021-01-19T02:06:26.401Z",
+    "createdAt": "2021-01-19T02:06:26.401Z",
+    "dataset": "{\"feature\":{\"names\":[\"﻿input\"]}}",
+    "evaluateMap": "{\"pass\":true,\"accuracy\":0.927570093457944}",
+    "evaluatePass": true,
+    "endTime": 1611022028474
+  }
+}
