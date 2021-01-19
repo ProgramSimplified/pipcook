@@ -3,7 +3,7 @@
     "dataCollect": {
       "package": "@pipcook/plugins-csv-data-collect",
       "params": {
-        "url": "http://ai-sample.oss-cn-hangzhou.aliyuncs.com/image_classification/datasets/textClassification.zip"
+        "url": "https://github.com/ProgramSimplified/pipcook/raw/master/textClassification/textClassification.zip"
       }
     },
     "dataAccess": {
