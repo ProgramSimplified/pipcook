@@ -1,4 +1,4 @@
-const predict = require('./index')
+const predict = require('./output/index')
 predict('还挺便宜').then(res => {
   console.log('test1: ', res)
 })
